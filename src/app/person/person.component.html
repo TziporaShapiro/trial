@@ -1,7 +1,8 @@
 <p>person - simulate data binding - {{ person.getFullName() }}</p>
-<div>{{person.id}} - {{person.name}}</div>
+<!-- <div>{{person.id}} - {{person.name}}</div> -->
 <input type="text" [value]="person.name"/>
 <h3>2 way binding using [(ng-model)]</h3>
 <input [(ngModel)] = "person.name"/>
 <br/>
 <button (click)="btnOnClick()">click me!</button>
+<div>trial 2 changes</div>
