@@ -12,8 +12,8 @@ public person:Person;
 
   ngOnInit(): void {
     this.person = new Person();
-    // this.person.name = "Miriam";
-    this.person.id = 100
+    this.person.name = "Miriam";
+    this.person.id = 70
   }
   btnOnClick(): void{
     this.person.name = this.person.name + " *";
