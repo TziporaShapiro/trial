@@ -12,7 +12,7 @@ public person:Person;
 
   ngOnInit(): void {
     this.person = new Person();
-    this.person.name = "Miri";
+    this.person.name = "Miriam";
     this.person.id = 100
   }
   btnOnClick(): void{
