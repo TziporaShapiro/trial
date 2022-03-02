@@ -1,0 +1,16 @@
+<h1>Students</h1>
+<div *ngFor="let student of students">
+<div>{{student.id}}</div>
+<div>{{student.name}}</div>
+<div>{{student.grade}}</div>
+<hr/>
+</div>
+<br/>
+<div>
+Add new Student:
+<br/>
+id: <input [(ngModel)] = "newStudent.id">
+name: <input [(ngModel)] = "newStudent.name">
+grade: <input [(ngModel)] = "newStudent.grade">
+</div>
+<button (click) = "btnAddStudent()">Add student</button>
